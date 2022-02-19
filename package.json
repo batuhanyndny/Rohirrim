@@ -17,7 +17,11 @@
     "clean": "rimraf dist yarn.lock node_modules .rollup.cache"
   },
   "dependencies": {
-    "react": "^16.12.0"
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "add": "^2.0.6",
+    "react": "^16.12.0",
+    "yarn": "^1.22.17"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
@@ -50,16 +54,16 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
     "prettier": "^2.5.1",
-    "react-dom": "^17.0.2",
+    "react-dom": "^16.12.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.67.3",
     "rollup-plugin-dts": "^4.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
     "sass": "^1.49.8",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "webpack": "^5.69.1"
   }
 }

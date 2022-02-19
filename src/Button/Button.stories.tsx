@@ -12,4 +12,4 @@ export default {
 	component: Button,
 };
 
-export const Primary = () => <Button />;
+export const Primary = () => <Button>Hello SB</Button>;
