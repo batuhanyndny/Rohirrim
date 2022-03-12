@@ -5,6 +5,6 @@ import Button from '.';
 
 describe('Button', () => {
 	test('renders the Button component', () => {
-		render(<Button />);
+		render(<Button>Foo</Button>);
 	});
 });
