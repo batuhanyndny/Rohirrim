@@ -39,9 +39,9 @@ const StyledButton = styled.button<ButtonProps>`
 const Button: NamedExoticComponent<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps>(
 	({ children, disabled, icon, iconPosition = 'left', textAlign = 'center' }, ref) => (
 		<StyledButton ref={ref} disabled={disabled} textAlign={textAlign}>
-			{iconPosition === 'left' && <span>{icon}</span>}
+			{iconPosition === 'left' && icon && <span>{icon}</span>}
 			{children}
-			{iconPosition === 'right' && <span>{icon}</span>}
+			{iconPosition === 'right' && icon && <span>{icon}</span>}
 		</StyledButton>
 	),
 );
